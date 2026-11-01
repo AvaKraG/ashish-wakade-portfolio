@@ -65,3 +65,72 @@
 .about-section{
   background:#f0ebe3;
 }
+
+
+/* Readability and mobile hero refinement — iteration 08 */
+@media (min-width: 651px) {
+  .work-section .eyebrow,
+  .about-layout .eyebrow,
+  .case-study > .eyebrow,
+  .contact-inner > .eyebrow { font-size: 11px; }
+  .section-note { font-size: 15px; line-height: 1.8; max-width: 340px; }
+  .project-type { font-size: 11px; }
+  .project-meta h3 { font-size: 28px; }
+  .project-desc { font-size: 15px; line-height: 1.75; }
+  .work-disclaimer { font-size: 13px; line-height: 1.7; }
+  .about-lead { font-size: 23px; line-height: 1.55; }
+  .about-copy > p:not(.about-lead) { font-size: 16px; line-height: 1.85; }
+  .experience-label { font-size: 10px; }
+  .experience-highlight b { font-size: 16px; }
+  .experience-highlight > span:last-child { font-size: 13px; }
+  .about-facts b { font-size: 23px; }
+  .about-facts span { font-size: 13px; }
+  .case-intro { font-size: 21px; line-height: 1.65; }
+  .case-columns h4 { font-size: 11px; }
+  .case-columns p { font-size: 15px; line-height: 1.85; }
+  .contact-intro { font-size: 16px; line-height: 1.9; }
+  .contact-link-copy small { font-size: 9px; }
+  .contact-link-copy b { font-size: 12px; }
+  .contact-small { font-size: 13px; }
+}
+
+@media (max-width: 650px) {
+  .hero {
+    min-height: 0;
+    padding-top: 68px;
+    padding-bottom: 112px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-copy { width: 100%; }
+  .hero-visual {
+    position: relative;
+    top: auto;
+    right: auto;
+    width: 230px;
+    height: 230px;
+    margin: 30px auto 0;
+    transform: none;
+    opacity: .72;
+    flex: 0 0 auto;
+  }
+  .visual-center { width: 116px; height: 116px; font-size: 14px; }
+  .visual-center em { font-size: 16px; }
+  .caption-right { right: -20px; }
+  .caption-bottom { font-size: 6px; }
+  .hero-bottom { bottom: 25px; }
+  .section-note { font-size: 14px; line-height: 1.8; }
+  .project-type { font-size: 10px; }
+  .project-meta h3 { font-size: 26px; }
+  .project-desc { font-size: 14px; line-height: 1.7; }
+  .work-disclaimer { font-size: 12px; line-height: 1.7; }
+  .about-copy > p:not(.about-lead) { font-size: 14px; line-height: 1.85; }
+  .experience-label { font-size: 9px; }
+  .experience-highlight b { font-size: 15px; }
+  .experience-highlight > span:last-child { font-size: 12px; }
+  .about-facts span { font-size: 11px; }
+  .case-columns h4 { font-size: 10px; }
+  .case-columns p { font-size: 14px; line-height: 1.8; }
+  .contact-intro { font-size: 14px; line-height: 1.8; }
+  .contact-small { font-size: 12px; line-height: 1.7; }
+}
